@@ -2,7 +2,7 @@ library first_page;
 
 import 'package:flutter/material.dart';
 import 'package:my_app/widgets/appbar_widget.dart';
-import 'package:my_app/pages/first/components/gridsection_component.dart';
+import 'package:my_app/pages/home/components/gridsection_component.dart';
 
 class FirstPage extends StatefulWidget {
   const FirstPage({Key? key}) : super(key: key);

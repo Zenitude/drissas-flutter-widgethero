@@ -1,7 +1,7 @@
 library home_page;
 
 import 'package:flutter/material.dart';
-import 'package:responsive_grid/responsive_grid.dart';
+import 'package:my_app/pages/home/components/gridsection_component.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -13,15 +13,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: const <Widget>[
-          Text(
-            'Hello Home !',
-          ),
-        ],
-      ),
-    );
+    return const GridSection();
   }
 }
